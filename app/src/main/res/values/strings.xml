@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="start">начать</string>
+    <string name="back">Назад</string>
+    <string name="level">Уровень:</string>
+
+</resources>
