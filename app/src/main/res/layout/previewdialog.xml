@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialogfon"
+    android:background="@drawable/previewbackgroundone"
+    android:layout_gravity="center"
+    android:scaleType="centerCrop"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/btnclose"
+            android:text="X"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/button_stroke_black95_press_white"
+            android:layout_gravity="end">
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/previewimg"
+            android:src="@drawable/previewimgone"
+            android:layout_weight="60"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textdescription"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:fontFamily="@font/stalinist_one"
+            android:text="@string/levelone"
+            android:textColor="@color/black95"
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btncontinue"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:background="@drawable/button_stroke_black95_press_white"
+            android:fontFamily="@font/stalinist_one"
+            android:text="@string/textcontinue"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </Button>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
